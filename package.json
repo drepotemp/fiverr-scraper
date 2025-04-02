@@ -1,0 +1,28 @@
+{
+  "name": "fiverr-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fomautils": "^1.0.2",
+    "mongoose": "^8.10.1",
+    "nodemon": "^3.1.9",
+    "puppeteer": "^24.5.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "queue-promise": "^2.2.1",
+    "telegraf": "^4.16.3",
+    "puppeteer-real-browser": "^1.4.2",
+    "@sparticuz/chromium": "^110.0.1",
+    "chrome-launcher": "^0.15.2"
+  }
+}
